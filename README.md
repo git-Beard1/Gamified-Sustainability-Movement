@@ -37,4 +37,3 @@ Train your pet with valuable skills, level up, and become the ultimate sustainab
 5. Go to Profile page and press pets owned and learn skill to check what skills you can learn. However, you are required to reach a certain level to learn a certain skill. Check BEASTS View More for that.
 
 6. You can also release your pet and start again. But you cannot own two pets of same kind.
-
