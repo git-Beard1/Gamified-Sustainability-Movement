@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+:root {
+    --page-background-color: rgba(32, 32, 32, 0.8);
+    --current-nav-color: rgba(109, 109, 109);
+    --main-color: rgba(20, 255, 110, 0.8);
+    --card-background-color: rgba(66, 67, 66, 0.8);
+    --progress-color: linear-gradient(to bottom right, #1a1c23, #303841);
+}
+
+.current-nav {
+    background-color: var(--current-nav-color);
+}
+
+.background-color {
+    background-color: var(--page-background-color);
+}
+
+.green_theme {
+    color: var(--main-color);
+}
+
+.card-color {
+    background-color: var(--card-background-color) !important;
+}
+
+.progress-color {
+    background-image: var(--progress-color);
+}

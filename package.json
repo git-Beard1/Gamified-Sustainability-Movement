@@ -1,0 +1,37 @@
+{
+  "name": "bed-ca2-git-beard1",
+  "version": "1.0.0",
+  "description": "BED CA2 Due 2nd Feb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init_tables": "node src/configs/createSchema.js && node src/configs/initTables.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ST0503-BED/bed-ca2-git-Beard1.git"
+  },
+  "keywords": [
+    "BED",
+    "CA2"
+  ],
+  "author": "Thiha Swan Htet",
+  "class": "DIT/FT/1B/08",
+  "admin_no": "2336671",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ST0503-BED/bed-ca2-git-Beard1/issues"
+  },
+  "homepage": "https://github.com/ST0503-BED/bed-ca2-git-Beard1#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^3.1.2",
+    "mysql2": "^3.7.1",
+    "nodemon": "^3.0.3"
+  }
+}

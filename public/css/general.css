@@ -1,0 +1,32 @@
+/*
+
+    Name: Thiha Swan Htet
+    Admin No: 2336671
+    Class: DIT/FT/1B/08
+
+    File Name: general.css
+
+    Last Modified: 21/01/2024
+
+*/
+
+@charset "utf-8";
+
+/* Changing the toggler button color (the three stripes) */
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Carousel adjustments for screen size below 992px */
+    #tagline {
+        display: none;
+        /* hides the contact info (click to contact me button) when screen size is above 576px */
+    }
+}
+
+.small-image {
+    width: 3rem;
+}
